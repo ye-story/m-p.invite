@@ -55,7 +55,7 @@ const names = [
 
 ];
 
-const baseURL = location.origin;
+const baseURL = location.href.replace('admin/', ''); //location.origin
 const container = document.getElementById('container');
 
 names.forEach((name, index) => {

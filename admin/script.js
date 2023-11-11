@@ -67,7 +67,7 @@ names.forEach((name, index) => {
   const linkNameElem = document.createElement('a');
   linkNameElem.classList.add('name__link');
 
-  const link = `${baseURL}/?id=${name.id}`;
+  const link = `${baseURL}?id=${name.id}`;
   linkNameElem.href = link;
   linkNameElem.innerHTML = link;
   linkNameElem.target = '_blank';
